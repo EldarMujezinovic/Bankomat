@@ -75,29 +75,7 @@ public class RacunTest {
 		assertEquals(racun.getIznosRacuna(), value, 4);
 	}
 	
-	@Test
-	public void shouldReturnUserName(){
-		name = racun.getImeVlasnika();
-		assertEquals(racun.getImeVlasnika(), name);
-	}
-	
-	@Test
-	public void shoulSetNumberOfAcc(){
-		racun.setBrojRacuna(10);
-		assertEquals(racun.getBrojRacuna(), 10);
-	}
-	
-	@Test 
-	public void shouldSetAmountOnAcc(){
-		racun.setIznosRacuna(50);
-		assertEquals(racun.getIznosRacuna(), 50, 0.001);
-	}
-	
-	@Test
-	public void shouldSetNameOfAcc(){
-		racun.setImeVlasnika("Role");
-		assertEquals(racun.getImeVlasnika(), "Role");
-	}
+
 	
 	@Test 
 	public  void shouldCangeAmountOfSourceAccAfterTransfer(){
