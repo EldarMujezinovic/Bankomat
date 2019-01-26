@@ -62,21 +62,7 @@ public class RacunTest {
 		val = racun.provjeraTransferaNovca(1, 2, 250);
 		assertEquals(ans, val);
 	}
-	
-	@Test
-	public void shouldReturnBrojRacuna(){
-		value = racun.getBrojRacuna();
-		assertEquals(racun.getBrojRacuna(), value, 4);
-	}
-	
-	@Test
-	public void shouldReturnIznosRacuna(){
-		value = racun.getIznosRacuna();
-		assertEquals(racun.getIznosRacuna(), value, 4);
-	}
-	
-
-	
+		
 	@Test 
 	public  void shouldCangeAmountOfSourceAccAfterTransfer(){
 		racun = new Racun(3,"Konj", 150);
